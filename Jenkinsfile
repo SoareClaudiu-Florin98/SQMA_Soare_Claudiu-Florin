@@ -3,16 +3,16 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'mvnw clean compile'
+                bat 'mvn clean compile'
             }
         }
         stage('Test') {
             steps {
-                bat 'mvnw test'
+                bat 'mvn test'
             }
             post{
                 always{
-                    junit '**/target/surefire-reports/TEST-TestCase1.xml'
+                    junit '**/target/surefire-reports/TestCase1.txt'
                 }
             }
         }
