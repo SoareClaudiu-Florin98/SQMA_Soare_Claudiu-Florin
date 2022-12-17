@@ -12,7 +12,7 @@ pipeline {
             }
             post{
                 always{
-                    junit '**/target/surefire-reports/TestCase1.txt'
+                    junit(testResults: 'target/surefire-reports/*.xml', allowEmptyResults : true)
                 }
             }
         }
