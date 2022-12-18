@@ -41,7 +41,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestCase2">
     <configuration name="TestCase1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SQMA_Soare_Claudiu-Florin" />
       <option name="PACKAGE_NAME" value="" />
@@ -52,8 +52,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SQMA_Soare_Claudiu-Florin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCase2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCase2" />
         <item itemvalue="JUnit.TestCase1.test" />
       </list>
     </recent_temporary>
@@ -123,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671324281714</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="run only one test case">
+      <created>1671324712266</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671324712266</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
