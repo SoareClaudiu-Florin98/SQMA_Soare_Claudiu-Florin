@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b4125e6-3431-4737-9261-c4949a88b8a5" name="Changes" comment="run only one test case">
+    <list default="true" id="1b4125e6-3431-4737-9261-c4949a88b8a5" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671324712266</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix">
+      <created>1671325431975</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671325431975</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,9 +166,9 @@
     <MESSAGE value="fix build" />
     <MESSAGE value="typo" />
     <MESSAGE value="add test stage" />
-    <MESSAGE value="fix" />
     <MESSAGE value="add test results" />
     <MESSAGE value="run only one test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="run only one test case" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
